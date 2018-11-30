@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import API_Requisition from '../API_Requisition/Asteroids_API';
 
 class Full extends Component {
+  componentDidMount(){
+    API_Requisition();
+  }
   render() {
     return (
     <div>
